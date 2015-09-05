@@ -98,27 +98,23 @@
 -(NSNumber*) locationServicesEnabled
 {
     
-    BOOL isSupported = NO;
-    
     if ([CLLocationManager locationServicesEnabled])
     {
-        isSupported = YES;
+        NUMBOOL(YES);
     }
     //This can call this to let them know if this feature is supported
-    return NUMBOOL(isSupported);
+    return NUMBOOL(NO);
 }
 
 -(NSNumber*) regionMonitoringAvailable
 {
     
-    BOOL isSupported = NO;
-    
     if ([CLLocationManager regionMonitoringAvailable])
     {
-        isSupported = YES;
+        NUMBOOL(YES);
     }
     //This can call this to let them know if this feature is supported
-    return NUMBOOL(isSupported);
+    return NUMBOOL(NO);
 }
 
 
