@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiGeoAvailability
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: TiGeoAvailability
+moduleid: ti.geo.availability
+guid: 3819a60b-82e6-413a-a269-5f94e83bdcde
+platform: iphone
+minsdk: 4.1.0.GA
