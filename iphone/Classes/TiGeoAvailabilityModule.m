@@ -63,7 +63,7 @@
 }
 
 
--(NSNumber*)allowBackgrounding:(id)args
+-(NSNumber*)allowBackgrounding:(id)unused
 {
     UIDevice* device = [UIDevice currentDevice];
     BOOL backgroundSupported = NO;
@@ -78,7 +78,7 @@
     
     if ([CLLocationManager significantLocationChangeMonitoringAvailable])
     {
-        NUMBOOL(YES);
+        return NUMBOOL(YES);
     }
     //This can call this to let them know if this feature is supported
     return NUMBOOL(NO);
@@ -88,7 +88,7 @@
 {
     if ([CLLocationManager headingAvailable])
     {
-         NUMBOOL(YES);
+       return NUMBOOL(YES);
     }
     //This can call this to let them know if this feature is supported
     return NUMBOOL(NO);
@@ -100,7 +100,7 @@
     
     if ([CLLocationManager locationServicesEnabled])
     {
-        NUMBOOL(YES);
+        return NUMBOOL(YES);
     }
     //This can call this to let them know if this feature is supported
     return NUMBOOL(NO);
@@ -111,7 +111,7 @@
     
     if ([CLLocationManager regionMonitoringAvailable])
     {
-        NUMBOOL(YES);
+        return NUMBOOL(YES);
     }
     //This can call this to let them know if this feature is supported
     return NUMBOOL(NO);
