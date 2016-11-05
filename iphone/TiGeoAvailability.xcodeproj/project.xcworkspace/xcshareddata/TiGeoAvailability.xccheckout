@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0DEC83F9-5912-4DB6-BC3A-50F3F0DFF02D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TiGeoAvailability</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>86E9335E36849B7CA2828820E7F3C39E21BB1B78</key>
 		<string>https://github.com/benbahrenburg/Ti.Geo.Availability.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iphone/TiGeoAvailability.xcodeproj</string>
+	<string>iphone/TiGeoAvailability.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>86E9335E36849B7CA2828820E7F3C39E21BB1B78</key>
